@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=233boy
-# github=https://github.com/233boy/sing-box
+author=blackshor
+# github=https://github.com/blackshors/blackshor-sing-box
 
 # bash fonts colors
 red='\e[31m'
@@ -83,7 +83,8 @@ is_conf_dir=$is_core_dir/conf
 is_log_dir=/var/log/$is_core
 is_sh_bin=/usr/local/bin/$is_core
 is_sh_dir=$is_core_dir/sh
-is_sh_repo=$author/$is_core
+# 脚本包 GitHub 仓库（与展示名 author 可分离）
+is_sh_repo=blackshors/blackshor-sing-box
 is_pkg="wget unzip tar qrencode bash"
 is_config_json=$is_core_dir/config.json
 is_caddy_bin=/usr/local/bin/caddy
